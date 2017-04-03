@@ -1,10 +1,8 @@
 package br.com.ftec.actionbarexemplo;
 
 import android.os.Bundle;
-import android.support.v4.view.MenuItemCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.app.ActionBar;
-import android.support.v7.widget.SearchView;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Toast;
@@ -18,7 +16,10 @@ public class MainActivity extends AppCompatActivity {
 
         //Retorna a barra que aparece na parte de cima
         //da aplicação
+        //ActionBar actionBar = getActionBar();
         ActionBar actionbar = getSupportActionBar();
+
+        actionbar.setTitle("ActionBarEx1");
         //Habilita a seta para voltar
         actionbar.setDisplayHomeAsUpEnabled(true);
     }
