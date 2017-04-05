@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">ActionBarExemplo</string>
+    <string name="app_name">Toolbar Exemplo</string>
     <string name="hello">Hello World</string>
     <string name="action_search">Search</string>
     <string name="action_refresh">Refresh</string>

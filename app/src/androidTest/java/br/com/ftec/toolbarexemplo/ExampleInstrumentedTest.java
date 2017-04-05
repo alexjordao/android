@@ -1,4 +1,4 @@
-package br.com.ftec.actionbarexemplo;
+package br.com.ftec.toolbarexemplo;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

@@ -1,4 +1,4 @@
-package br.com.ftec.actionbarexemplo;
+package br.com.ftec.toolbarexemplo;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -18,10 +18,8 @@ public class MainActivity extends AppCompatActivity {
         //da aplicação
         //ActionBar actionBar = getActionBar();
         ActionBar actionbar = getSupportActionBar();
+        actionbar.setTitle("Hello ActionBarCompat");
 
-        actionbar.setTitle("ActionBarEx1");
-        //Habilita a seta para voltar
-        actionbar.setDisplayHomeAsUpEnabled(true);
     }
 
     /*
